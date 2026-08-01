@@ -1,0 +1,284 @@
+[
+  {
+    "text": "Can you queue up something intense for my gym session?",
+    "expected_intent": "workout",
+    "expected_action": "accept",
+    "description": "Workout request phrased around gym session, unseen wording"
+  },
+  {
+    "text": "I'm training for a race, play something that keeps my pace up",
+    "expected_intent": "workout",
+    "expected_action": "accept",
+    "description": "Workout request tied to running training, not in training set"
+  },
+  {
+    "text": "Blast something powerful, I'm about to hit the weights room",
+    "expected_intent": "workout",
+    "expected_action": "accept",
+    "description": "Workout request using casual phrasing 'hit the weights room'"
+  },
+  {
+    "text": "Need a soundtrack that keeps my energy up through burpees and squats",
+    "expected_intent": "workout",
+    "expected_action": "accept",
+    "description": "Workout request naming specific exercises"
+  },
+  {
+    "text": "Crank up something aggressive for my sprint intervals",
+    "expected_intent": "workout",
+    "expected_action": "accept",
+    "description": "Workout request referencing sprint intervals"
+  },
+  {
+    "text": "I have a final tomorrow, play something that helps me concentrate",
+    "expected_intent": "study",
+    "expected_action": "accept",
+    "description": "Study request tied to exam prep, unseen wording"
+  },
+  {
+    "text": "Put on something low key while I finish this lab report",
+    "expected_intent": "study",
+    "expected_action": "accept",
+    "description": "Study request referencing a lab report"
+  },
+  {
+    "text": "I'm buried in textbooks, give me something that won't break my concentration",
+    "expected_intent": "study",
+    "expected_action": "accept",
+    "description": "Study request with casual phrasing about textbooks"
+  },
+  {
+    "text": "Something unobtrusive would help while I outline my paper",
+    "expected_intent": "study",
+    "expected_action": "accept",
+    "description": "Study request tied to writing an outline"
+  },
+  {
+    "text": "I'm cramming for an exam, need music that keeps me in the zone",
+    "expected_intent": "study",
+    "expected_action": "accept",
+    "description": "Study request using 'in the zone' phrasing"
+  },
+  {
+    "text": "It's been a long week, I just want to sink into the couch with something soft",
+    "expected_intent": "relax",
+    "expected_action": "accept",
+    "description": "Relax request using indirect couch imagery"
+  },
+  {
+    "text": "Can you put on something easygoing while I sip my tea?",
+    "expected_intent": "relax",
+    "expected_action": "accept",
+    "description": "Relax request tied to tea-drinking scenario"
+  },
+  {
+    "text": "I just want to breathe and let go of today, play something gentle",
+    "expected_intent": "relax",
+    "expected_action": "accept",
+    "description": "Relax request emphasizing stress release"
+  },
+  {
+    "text": "Something low-key for reading on the porch this evening",
+    "expected_intent": "relax",
+    "expected_action": "accept",
+    "description": "Relax request tied to porch reading scenario"
+  },
+  {
+    "text": "I want to melt into the sofa with some soft background sound",
+    "expected_intent": "relax",
+    "expected_action": "accept",
+    "description": "Relax request with figurative 'melt into the sofa' phrasing"
+  },
+  {
+    "text": "We're throwing a birthday bash tonight, get the playlist hyped up",
+    "expected_intent": "party",
+    "expected_action": "accept",
+    "description": "Party request tied to a birthday bash"
+  },
+  {
+    "text": "Friends are coming over for game night, we need something bumping",
+    "expected_intent": "party",
+    "expected_action": "accept",
+    "description": "Party request with slang 'bumping'"
+  },
+  {
+    "text": "Get the dance floor moving, we're celebrating tonight",
+    "expected_intent": "party",
+    "expected_action": "accept",
+    "description": "Party request referencing dance floor and celebration"
+  },
+  {
+    "text": "It's New Year's Eve, queue up something loud and fun",
+    "expected_intent": "party",
+    "expected_action": "accept",
+    "description": "Party request tied to a holiday celebration"
+  },
+  {
+    "text": "Everyone's over for the cookout, keep the vibe festive",
+    "expected_intent": "party",
+    "expected_action": "accept",
+    "description": "Party request tied to a cookout gathering"
+  },
+  {
+    "text": "It's way past midnight, play something to help me drift off",
+    "expected_intent": "sleep",
+    "expected_action": "accept",
+    "description": "Sleep request emphasizing late-night drifting off"
+  },
+  {
+    "text": "I'm tucked in already, put on something dreamy and quiet",
+    "expected_intent": "sleep",
+    "expected_action": "accept",
+    "description": "Sleep request tied to being tucked in bed"
+  },
+  {
+    "text": "My mind won't stop racing, I need something hushed to sleep to",
+    "expected_intent": "sleep",
+    "expected_action": "accept",
+    "description": "Sleep request emphasizing a racing mind"
+  },
+  {
+    "text": "Dim the lights in my head, play something slow for bedtime",
+    "expected_intent": "sleep",
+    "expected_action": "accept",
+    "description": "Sleep request with figurative 'dim the lights' phrasing"
+  },
+  {
+    "text": "I'm winding down for the night, something hushed would help me doze off",
+    "expected_intent": "sleep",
+    "expected_action": "accept",
+    "description": "Sleep request using 'doze off' phrasing"
+  },
+  {
+    "text": "Today was rough, I could use something that reminds me it'll get better",
+    "expected_intent": "mood_boost",
+    "expected_action": "accept",
+    "description": "Mood boost request framed around a rough day"
+  },
+  {
+    "text": "I just got some disappointing news, play something that lifts me back up",
+    "expected_intent": "mood_boost",
+    "expected_action": "accept",
+    "description": "Mood boost request tied to disappointing news"
+  },
+  {
+    "text": "I'm stuck in a funk, give me something that turns my frown around",
+    "expected_intent": "mood_boost",
+    "expected_action": "accept",
+    "description": "Mood boost request using 'stuck in a funk' phrasing"
+  },
+  {
+    "text": "Feeling pretty gray today, something bright would help my outlook",
+    "expected_intent": "mood_boost",
+    "expected_action": "accept",
+    "description": "Mood boost request using figurative 'gray' phrasing"
+  },
+  {
+    "text": "I need a little encouragement in song form after today",
+    "expected_intent": "mood_boost",
+    "expected_action": "accept",
+    "description": "Mood boost request framed as needing encouragement"
+  },
+  {
+    "text": "What's the exchange rate between dollars and euros today?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope finance question unrelated to music"
+  },
+  {
+    "text": "Can you help me assemble this bookshelf?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope furniture assembly request"
+  },
+  {
+    "text": "What's the tallest mountain in South America?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope geography trivia question"
+  },
+  {
+    "text": "How many teaspoons are in a tablespoon?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope cooking conversion question"
+  },
+  {
+    "text": "Can you proofread this paragraph for grammar mistakes?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope writing assistance request"
+  },
+  {
+    "text": "What's the fastest way to declutter a small apartment?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope home organization question"
+  },
+  {
+    "text": "How do airplanes stay in the air?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope physics trivia question"
+  },
+  {
+    "text": "Remind me to call the dentist next week.",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope reminder command"
+  },
+  {
+    "text": "What's a good name for a pet turtle?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope naming suggestion request"
+  },
+  {
+    "text": "How much paint do I need for a small bedroom?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope home improvement estimate question"
+  },
+  {
+    "text": "Can you explain how compound interest works?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope finance education question"
+  },
+  {
+    "text": "What's the best way to store fresh basil?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Out-of-scope food storage question"
+  },
+  {
+    "text": "",
+    "expected_intent": null,
+    "expected_action": "reject",
+    "description": "Guardrail case: empty string input must be rejected without model inference"
+  },
+  {
+    "text": "     ",
+    "expected_intent": null,
+    "expected_action": "reject",
+    "description": "Guardrail case: whitespace-only input must be rejected without model inference"
+  },
+  {
+    "text": "music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music music",
+    "expected_intent": null,
+    "expected_action": "reject",
+    "description": "Guardrail case: input exceeding the 500 character maximum must be rejected as too long"
+  },
+  {
+    "text": "What is the weather going to be like this weekend?",
+    "expected_intent": "out_of_scope",
+    "expected_action": "reject",
+    "description": "Guardrail case: clear non-music question should be classified out_of_scope and rejected"
+  },
+  {
+    "text": "vibes",
+    "expected_intent": null,
+    "expected_action": "reject",
+    "description": "Guardrail case: ambiguous one-word input with no clear activity, mood, or goal"
+  }
+]

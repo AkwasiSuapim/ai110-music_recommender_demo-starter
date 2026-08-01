@@ -1,0 +1,210 @@
+=== Valid request 1 (workout) ===
+Command: python3 -m src.main --request 'I need energetic music for a workout.'
+Exit code: 0
+
+Intentune: AI-Assisted Music Recommendation System
+
+Request:
+I need energetic music for a workout.
+
+Loaded songs: 20
+AI interpretation:
+Intent: workout
+Confidence: 0.790
+Genre target: pop
+Mood target: energetic
+Energy target: 0.90
+Danceability target: 0.85
+
+Recommendations:
+1. Gym Hero — Max Pulse
+   Score: 6.88/10
+   Reasons:
+   - genre match (+3.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.94)
+   - danceability similarity (+1.94)
+
+2. Blinding Lights — The Weeknd
+   Score: 6.84/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood match (+3.0)
+   - energy similarity (+1.94)
+   - danceability similarity (+1.90)
+
+3. Sunrise City — Neon Echo
+   Score: 6.72/10
+   Reasons:
+   - genre match (+3.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.84)
+   - danceability similarity (+1.88)
+
+4. Lose Yourself — Eminem
+   Score: 3.66/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.96)
+   - danceability similarity (+1.70)
+
+5. Rooftop Lights — Indigo Parade
+   Score: 3.66/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.72)
+   - danceability similarity (+1.94)
+
+
+
+=== Valid request 2 (study) ===
+Command: python3 -m src.main --request 'Give me calm music while I study.'
+Exit code: 0
+
+Intentune: AI-Assisted Music Recommendation System
+
+Request:
+Give me calm music while I study.
+
+Loaded songs: 20
+AI interpretation:
+Intent: study
+Confidence: 0.795
+Genre target: classical
+Mood target: focused
+Energy target: 0.30
+Danceability target: 0.20
+
+Recommendations:
+1. Clair de Lune — Claude Debussy
+   Score: 6.64/10
+   Reasons:
+   - genre match (+3.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.72)
+   - danceability similarity (+1.92)
+
+2. Focus Flow — LoRoom
+   Score: 6.00/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood match (+3.0)
+   - energy similarity (+1.80)
+   - danceability similarity (+1.20)
+
+3. Spacewalk Thoughts — Orbit Bloom
+   Score: 3.54/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.96)
+   - danceability similarity (+1.58)
+
+4. Oceans (Where Feet May Fail) — Hillsong United
+   Score: 3.26/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.64)
+   - danceability similarity (+1.62)
+
+5. A Thousand Years — Christina Perri
+   Score: 3.24/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.78)
+   - danceability similarity (+1.46)
+
+
+
+=== Valid request 3 (mood boost) ===
+Command: python3 -m src.main --request 'I feel down and want something uplifting.'
+Exit code: 0
+
+Intentune: AI-Assisted Music Recommendation System
+
+Request:
+I feel down and want something uplifting.
+
+Loaded songs: 20
+AI interpretation:
+Intent: mood_boost
+Confidence: 0.803
+Genre target: pop
+Mood target: happy
+Energy target: 0.75
+Danceability target: 0.70
+
+Recommendations:
+1. Sunrise City — Neon Echo
+   Score: 9.68/10
+   Reasons:
+   - genre match (+3.0)
+   - mood match (+3.0)
+   - energy similarity (+1.86)
+   - danceability similarity (+1.82)
+
+2. Rooftop Lights — Indigo Parade
+   Score: 6.74/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood match (+3.0)
+   - energy similarity (+1.98)
+   - danceability similarity (+1.76)
+
+3. Gym Hero — Max Pulse
+   Score: 6.28/10
+   Reasons:
+   - genre match (+3.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.64)
+   - danceability similarity (+1.64)
+
+4. Night Drive Loop — Neon Echo
+   Score: 3.94/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+2.00)
+   - danceability similarity (+1.94)
+
+5. Calm Down — Rema
+   Score: 3.76/10
+   Reasons:
+   - genre did not match (+0.0)
+   - mood did not match (+0.0)
+   - energy similarity (+1.98)
+   - danceability similarity (+1.78)
+
+
+
+=== Guardrail: empty/whitespace request ===
+Command: python3 -m src.main --request '   '
+Exit code: 1
+
+Intentune: AI-Assisted Music Recommendation System
+
+Request:
+   
+
+AI interpretation:
+Request rejected.
+I could not confidently identify a music-listening intent. Please mention an activity, mood, or listening goal such as workout, studying, relaxing, partying, sleeping, or improving your mood.
+
+
+=== Guardrail: out-of-scope request ===
+Command: python3 -m src.main --request 'What is the weather tomorrow?'
+Exit code: 1
+
+Intentune: AI-Assisted Music Recommendation System
+
+Request:
+What is the weather tomorrow?
+
+AI interpretation:
+Request rejected.
+I could not confidently identify a music-listening intent. Please mention an activity, mood, or listening goal such as workout, studying, relaxing, partying, sleeping, or improving your mood.
+

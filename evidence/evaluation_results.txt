@@ -1,0 +1,133 @@
+[0] expected_intent='workout' expected_action='accept' | predicted_intent=np.str_('workout') confidence=0.792 margin=0.696 action='accept' | baseline_intent='workout' baseline_action='accept' | intent_correct=True action_correct=True | description=Workout request phrased around gym session, unseen wording
+[1] expected_intent='workout' expected_action='accept' | predicted_intent=np.str_('workout') confidence=0.506 margin=0.356 action='accept' | baseline_intent='workout' baseline_action='accept' | intent_correct=True action_correct=True | description=Workout request tied to running training, not in training set
+[2] expected_intent='workout' expected_action='accept' | predicted_intent=np.str_('workout') confidence=0.419 margin=0.216 action='accept' | baseline_intent='workout' baseline_action='accept' | intent_correct=True action_correct=True | description=Workout request using casual phrasing 'hit the weights room'
+[3] expected_intent='workout' expected_action='accept' | predicted_intent=np.str_('workout') confidence=0.344 margin=0.102 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=False | description=Workout request naming specific exercises
+[4] expected_intent='workout' expected_action='accept' | predicted_intent=np.str_('workout') confidence=0.675 margin=0.573 action='accept' | baseline_intent='workout' baseline_action='accept' | intent_correct=True action_correct=True | description=Workout request referencing sprint intervals
+[5] expected_intent='study' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.660 margin=0.578 action='accept' | baseline_intent='study' baseline_action='accept' | intent_correct=True action_correct=True | description=Study request tied to exam prep, unseen wording
+[6] expected_intent='study' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.662 margin=0.563 action='accept' | baseline_intent='study' baseline_action='accept' | intent_correct=True action_correct=True | description=Study request referencing a lab report
+[7] expected_intent='study' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.343 margin=0.115 action='reject' | baseline_intent='study' baseline_action='accept' | intent_correct=True action_correct=False | description=Study request with casual phrasing about textbooks
+[8] expected_intent='study' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.607 margin=0.523 action='accept' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Study request tied to writing an outline
+[9] expected_intent='study' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.272 margin=0.087 action='reject' | baseline_intent='study' baseline_action='accept' | intent_correct=False action_correct=False | description=Study request using 'in the zone' phrasing
+[10] expected_intent='relax' expected_action='accept' | predicted_intent=np.str_('relax') confidence=0.366 margin=0.195 action='accept' | baseline_intent='relax' baseline_action='accept' | intent_correct=True action_correct=True | description=Relax request using indirect couch imagery
+[11] expected_intent='relax' expected_action='accept' | predicted_intent=np.str_('out_of_scope') confidence=0.532 margin=0.270 action='reject' | baseline_intent='relax' baseline_action='accept' | intent_correct=False action_correct=False | description=Relax request tied to tea-drinking scenario
+[12] expected_intent='relax' expected_action='accept' | predicted_intent=np.str_('relax') confidence=0.374 margin=0.242 action='accept' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Relax request emphasizing stress release
+[13] expected_intent='relax' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.440 margin=0.252 action='accept' | baseline_intent='study' baseline_action='accept' | intent_correct=False action_correct=True | description=Relax request tied to porch reading scenario
+[14] expected_intent='relax' expected_action='accept' | predicted_intent=np.str_('sleep') confidence=0.228 margin=0.057 action='reject' | baseline_intent='relax' baseline_action='accept' | intent_correct=False action_correct=False | description=Relax request with figurative 'melt into the sofa' phrasing
+[15] expected_intent='party' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.524 margin=0.382 action='accept' | baseline_intent='party' baseline_action='accept' | intent_correct=True action_correct=True | description=Party request tied to a birthday bash
+[16] expected_intent='party' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.689 margin=0.609 action='accept' | baseline_intent='sleep' baseline_action='accept' | intent_correct=True action_correct=True | description=Party request with slang 'bumping'
+[17] expected_intent='party' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.749 margin=0.654 action='accept' | baseline_intent='party' baseline_action='accept' | intent_correct=True action_correct=True | description=Party request referencing dance floor and celebration
+[18] expected_intent='party' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.526 margin=0.409 action='accept' | baseline_intent='party' baseline_action='accept' | intent_correct=True action_correct=True | description=Party request tied to a holiday celebration
+[19] expected_intent='party' expected_action='accept' | predicted_intent=np.str_('party') confidence=0.686 margin=0.576 action='accept' | baseline_intent='party' baseline_action='accept' | intent_correct=True action_correct=True | description=Party request tied to a cookout gathering
+[20] expected_intent='sleep' expected_action='accept' | predicted_intent=np.str_('sleep') confidence=0.374 margin=0.195 action='accept' | baseline_intent='sleep' baseline_action='accept' | intent_correct=True action_correct=True | description=Sleep request emphasizing late-night drifting off
+[21] expected_intent='sleep' expected_action='accept' | predicted_intent=np.str_('study') confidence=0.262 margin=0.086 action='reject' | baseline_intent='sleep' baseline_action='accept' | intent_correct=False action_correct=False | description=Sleep request tied to being tucked in bed
+[22] expected_intent='sleep' expected_action='accept' | predicted_intent=np.str_('sleep') confidence=0.668 margin=0.550 action='accept' | baseline_intent='sleep' baseline_action='accept' | intent_correct=True action_correct=True | description=Sleep request emphasizing a racing mind
+[23] expected_intent='sleep' expected_action='accept' | predicted_intent=np.str_('sleep') confidence=0.620 margin=0.541 action='accept' | baseline_intent='sleep' baseline_action='accept' | intent_correct=True action_correct=True | description=Sleep request with figurative 'dim the lights' phrasing
+[24] expected_intent='sleep' expected_action='accept' | predicted_intent=np.str_('sleep') confidence=0.612 margin=0.465 action='accept' | baseline_intent='sleep' baseline_action='accept' | intent_correct=True action_correct=True | description=Sleep request using 'doze off' phrasing
+[25] expected_intent='mood_boost' expected_action='accept' | predicted_intent=np.str_('mood_boost') confidence=0.385 margin=0.245 action='accept' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Mood boost request framed around a rough day
+[26] expected_intent='mood_boost' expected_action='accept' | predicted_intent=np.str_('mood_boost') confidence=0.305 margin=0.104 action='reject' | baseline_intent='workout' baseline_action='accept' | intent_correct=True action_correct=False | description=Mood boost request tied to disappointing news
+[27] expected_intent='mood_boost' expected_action='accept' | predicted_intent=np.str_('mood_boost') confidence=0.370 margin=0.126 action='accept' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Mood boost request using 'stuck in a funk' phrasing
+[28] expected_intent='mood_boost' expected_action='accept' | predicted_intent=np.str_('mood_boost') confidence=0.439 margin=0.300 action='accept' | baseline_intent='mood_boost' baseline_action='accept' | intent_correct=True action_correct=True | description=Mood boost request using figurative 'gray' phrasing
+[29] expected_intent='mood_boost' expected_action='accept' | predicted_intent=np.str_('relax') confidence=0.299 margin=0.084 action='reject' | baseline_intent='mood_boost' baseline_action='accept' | intent_correct=False action_correct=False | description=Mood boost request framed as needing encouragement
+[30] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.831 margin=0.794 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope finance question unrelated to music
+[31] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.897 margin=0.872 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope furniture assembly request
+[32] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.924 margin=0.906 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope geography trivia question
+[33] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.660 margin=0.569 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope cooking conversion question
+[34] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.888 margin=0.863 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope writing assistance request
+[35] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.863 margin=0.835 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope home organization question
+[36] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.874 margin=0.845 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope physics trivia question
+[37] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.284 margin=0.067 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope reminder command
+[38] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.795 margin=0.751 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope naming suggestion request
+[39] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.589 margin=0.484 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope home improvement estimate question
+[40] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.951 margin=0.942 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope finance education question
+[41] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.858 margin=0.830 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Out-of-scope food storage question
+[42] expected_intent=None expected_action='reject' | predicted_intent=None confidence=0.000 margin=0.000 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Guardrail case: empty string input must be rejected without model inference
+[43] expected_intent=None expected_action='reject' | predicted_intent=None confidence=0.000 margin=0.000 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Guardrail case: whitespace-only input must be rejected without model inference
+[44] expected_intent=None expected_action='reject' | predicted_intent=None confidence=0.000 margin=0.000 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Guardrail case: input exceeding the 500 character maximum must be rejected as too long
+[45] expected_intent='out_of_scope' expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.792 margin=0.742 action='reject' | baseline_intent='out_of_scope' baseline_action='reject' | intent_correct=True action_correct=True | description=Guardrail case: clear non-music question should be classified out_of_scope and rejected
+[46] expected_intent=None expected_action='reject' | predicted_intent=np.str_('out_of_scope') confidence=0.256 margin=0.115 action='reject' | baseline_intent=None baseline_action='reject' | intent_correct=True action_correct=True | description=Guardrail case: ambiguous one-word input with no clear activity, mood, or goal
+
+=== Evaluation Summary ===
+Total cases: 47
+Raw top-class intent accuracy: 41/47 (87.23%)  [formerly labeled 'Intent classification correct']
+Guardrail-aware delivered intent accuracy: 34/43 (79.07%)  [matches the classification report's weighted recall below]
+
+Two different, both-correct 'intent accuracy' numbers appear below because they answer different questions:
+  Raw top-class intent accuracy -- numerator: cases where the model's raw top-1 predicted class (IntentPrediction.intent) equals expected_intent, PLUS every case whose expected_intent is null (there is no intent to compare, so it is counted as trivially correct); denominator: all evaluated cases (total_cases). This ignores whether the guardrail actually accepted the request -- a case can be 'raw-correct' even if it was rejected for low confidence or an ambiguous margin.
+  Guardrail-aware delivered intent accuracy -- numerator: cases where the label the system actually delivered (accept -> its intent; reject -> 'out_of_scope' only if that was the model's genuine top guess, otherwise '__rejected__') equals expected_intent; denominator: only the eligible cases (expected_intent is not null, intent_eligible_count). This is the same accounting as the classification report's weighted recall, since every eligible case falls into exactly one true class and '__rejected__'/mismatched predictions never count as a true positive for any class.
+The gap between the two numbers has two causes: (1) the raw metric's denominator includes 4 guardrail-only cases with no real expected_intent, which it counts as automatically correct; (2) among the 43 eligible cases, some requests whose raw top guess matched expected_intent were still rejected by the confidence/margin guardrail before that intent was ever delivered, so they count as correct for the raw metric but incorrect for the delivered metric.
+
+Guardrail action correct: 39/47 (82.98%)
+Accepted cases: 22
+Rejected cases: 25
+Low-confidence rejections: 9
+Ambiguous-margin rejections: 0
+Trained classifier accuracy: 80.85%
+Keyword baseline accuracy: 70.21%
+Difference (trained - baseline): 10.64 points
+Failed cases (9):
+  - [3] 'Need a soundtrack that keeps my energy up through burpees and squats' -> Workout request naming specific exercises
+  - [7] "I'm buried in textbooks, give me something that won't break my concentration" -> Study request with casual phrasing about textbooks
+  - [9] "I'm cramming for an exam, need music that keeps me in the zone" -> Study request using 'in the zone' phrasing
+  - [11] 'Can you put on something easygoing while I sip my tea?' -> Relax request tied to tea-drinking scenario
+  - [13] 'Something low-key for reading on the porch this evening' -> Relax request tied to porch reading scenario
+  - [14] 'I want to melt into the sofa with some soft background sound' -> Relax request with figurative 'melt into the sofa' phrasing
+  - [21] "I'm tucked in already, put on something dreamy and quiet" -> Sleep request tied to being tucked in bed
+  - [26] 'I just got some disappointing news, play something that lifts me back up' -> Mood boost request tied to disappointing news
+  - [29] 'I need a little encouragement in song form after today' -> Mood boost request framed as needing encouragement
+
+=== Intent Classification Metrics (scikit-learn) ===
+Eligible cases (expected_intent is not null): 43
+'__rejected__' marks requests the classifier rejected before committing to an intent (low confidence or an ambiguous margin between the top two candidates). It is kept separate from a genuine 'out_of_scope' prediction, which is the model actively and confidently classifying the request as out of scope.
+
+Per-intent precision / recall / F1 / support:
+  workout       precision=100.00%  recall= 80.00%  f1= 88.89%  support=5
+  study         precision= 75.00%  recall= 60.00%  f1= 66.67%  support=5
+  relax         precision=100.00%  recall= 40.00%  f1= 57.14%  support=5
+  party         precision=100.00%  recall=100.00%  f1=100.00%  support=5
+  sleep         precision=100.00%  recall= 80.00%  f1= 88.89%  support=5
+  mood_boost    precision=100.00%  recall= 60.00%  f1= 75.00%  support=5
+  out_of_scope  precision= 92.86%  recall=100.00%  f1= 96.30%  support=13
+
+Macro-average:    precision=95.41%  recall=74.29%  f1=81.84%
+Weighted-average: precision=94.93%  recall=79.07%  f1=84.53%
+
+Intent confusion matrix (rows = expected intent, columns = predicted label):
+  true\pred            workout         study         relax         party         sleep    mood_boost  out_of_scope  __rejected__
+  workout                    4             0             0             0             0             0             0             1
+  study                      0             3             0             0             0             0             0             2
+  relax                      0             1             2             0             0             0             1             1
+  party                      0             0             0             5             0             0             0             0
+  sleep                      0             0             0             0             4             0             0             1
+  mood_boost                 0             0             0             0             0             3             0             2
+  out_of_scope               0             0             0             0             0             0            13             0
+
+scikit-learn classification_report:
+              precision    recall  f1-score   support
+
+     workout     1.0000    0.8000    0.8889         5
+       study     0.7500    0.6000    0.6667         5
+       relax     1.0000    0.4000    0.5714         5
+       party     1.0000    1.0000    1.0000         5
+       sleep     1.0000    0.8000    0.8889         5
+  mood_boost     1.0000    0.6000    0.7500         5
+out_of_scope     0.9286    1.0000    0.9630        13
+
+   micro avg     0.9444    0.7907    0.8608        43
+   macro avg     0.9541    0.7429    0.8184        43
+weighted avg     0.9493    0.7907    0.8453        43
+
+=== Guardrail Action Metrics (accept vs reject, all cases) ===
+  accept   precision=100.00%  recall= 73.33%  f1= 84.62%  support=30
+  reject   precision= 68.00%  recall=100.00%  f1= 80.95%  support=17
+
+Macro-average action: precision=84.00%  recall=86.67%  f1=82.78%
+
+True accept  (expected accept, actually accepted): 22
+False reject (expected accept, actually rejected): 8
+False accept (expected reject, actually accepted): 0
+True reject  (expected reject, actually rejected): 17
+
+Action confusion matrix (rows = expected action, columns = actual action):
+  true\pred       accept     reject
+  accept              22          8
+  reject               0         17
