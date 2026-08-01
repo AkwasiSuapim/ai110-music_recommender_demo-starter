@@ -1,0 +1,165 @@
+text,intent
+I need energetic music for a workout,workout
+Pump up songs for my gym session,workout
+Give me something fast for running,workout
+"I'm about to lift weights, play something intense",workout
+High energy tracks for cardio please,workout
+Music to keep me motivated during training,workout
+I want to work out to some upbeat songs,workout
+Something to get my heart rate up for exercise,workout
+Play tracks that make me want to sprint,workout
+"I'm heading to the gym, need pump-up music",workout
+Looking for high tempo songs for HIIT,workout
+Need a playlist for my morning jog,workout
+Give me something powerful for leg day,workout
+I want music that pushes me through a hard workout,workout
+Songs to keep me energized while training,workout
+Something upbeat for my spin class,workout
+I need hype music before my workout,workout
+Play something intense for boxing practice,workout
+Music for a tough cardio session,workout
+I want to feel pumped for my exercise routine,workout
+Give me driving beats for a long run,workout
+Need motivation music for strength training,workout
+Give me calm music while I study,study
+I need background music for homework,study
+Something quiet to help me concentrate,study
+Music for focused reading,study
+I'm coding and need something that won't distract me,study
+Play something calm for deep work,study
+I want instrumental music for studying,study
+Need something soothing while I write my essay,study
+Music to help me concentrate on my exam prep,study
+Something mellow for a long study session,study
+"I'm trying to focus on my thesis, play something quiet",study
+Background tracks for late night studying,study
+Give me something to help me stay focused at my desk,study
+I need low key music for research work,study
+Play something calm for programming,study
+Music for concentrating during a work sprint,study
+Something gentle to help me focus on reading,study
+I want quiet music while I review my notes,study
+Need calm tracks for a study group session,study
+Something unobtrusive for deep focus,study
+Play music that helps me concentrate on math problems,study
+I need something calm to get through this assignment,study
+Calm music for a quiet evening,relax
+I want something relaxing after a long day,relax
+Play something soothing to unwind,relax
+Need chill music to de-stress,relax
+Something mellow for winding down tonight,relax
+I want peaceful background music,relax
+Give me calming tracks after work,relax
+Something soft to help me relax on the couch,relax
+I need music to ease my stress,relax
+Play something gentle for a lazy afternoon,relax
+Music to help me decompress after a busy week,relax
+I want tranquil sounds for the evening,relax
+Something laid back to relax to,relax
+Need soothing music while I make dinner,relax
+Play something calm to help me breathe easier,relax
+I want mellow tunes for a slow Sunday,relax
+Something to help me unwind before bed,relax
+Give me quiet music for relaxing at home,relax
+I need calming sounds after a stressful meeting,relax
+Play something soft and easy going,relax
+Music to help me settle down after class,relax
+Something relaxing for a rainy afternoon,relax
+Dance music for a party tonight,party
+I want something lively for a celebration,party
+Play upbeat songs for my friends coming over,party
+Need music to get everyone dancing,party
+Something festive for a birthday party,party
+I want high energy tunes for a get together,party
+Play fun songs for a social gathering,party
+Music to hype up the party,party
+I need something loud and fun for game night,party
+Give me tracks that make people want to dance,party
+Something groovy for a house party,party
+Play energetic songs for the celebration,party
+I want music to liven up the room,party
+Need festive tracks for a holiday gathering,party
+Something bouncy for dancing with friends,party
+Play music that gets the crowd moving,party
+I want an exciting playlist for the party,party
+Music to keep the party going all night,party
+Something upbeat for a weekend celebration,party
+Give me tracks perfect for a dance floor,party
+I need lively music for hosting friends,party
+Play something fun for a night out with friends,party
+Very calm music for falling asleep,sleep
+I need something soft for bedtime,sleep
+Play gentle sounds to help me sleep,sleep
+Something quiet for a peaceful night,sleep
+Music to help me drift off to sleep,sleep
+I want slow soothing tracks before bed,sleep
+Need calm ambient sounds for the night,sleep
+Play something soft to wind down for sleep,sleep
+Something dreamy to help me fall asleep,sleep
+I want relaxing music for my bedtime routine,sleep
+Music to help quiet my mind before sleeping,sleep
+Play something slow to ease me into sleep,sleep
+Need peaceful sounds for a restful night,sleep
+I want gentle tracks for late night sleeping,sleep
+Something calming to listen to as I fall asleep,sleep
+Play soft music for a deep sleep,sleep
+I need quiet background sounds for the night,sleep
+Something soothing to help me nod off,sleep
+Music to play while I drift into sleep,sleep
+Give me slow calm songs for bedtime,sleep
+I want tranquil sounds to sleep to,sleep
+Play something restful for the night,sleep
+I feel down and want something uplifting,mood_boost
+Need happy music to cheer me up,mood_boost
+Play something positive to lift my spirits,mood_boost
+"I'm feeling sad, give me encouraging songs",mood_boost
+Something upbeat to boost my mood,mood_boost
+I want music that makes me feel better,mood_boost
+Play something hopeful after a rough day,mood_boost
+Need feel good songs to brighten my mood,mood_boost
+"I'm in a slump, play something joyful",mood_boost
+Something to help me feel more optimistic,mood_boost
+Play uplifting tracks to turn my day around,mood_boost
+I want cheerful music to shake off a bad mood,mood_boost
+Need encouraging songs after some bad news,mood_boost
+Something bright and happy to lift my spirits,mood_boost
+Play music that makes me smile again,mood_boost
+"I feel low energy, give me something inspiring",mood_boost
+Something positive to help me feel motivated again,mood_boost
+Play feel good tunes to improve my outlook,mood_boost
+I need music that reminds me things will be okay,mood_boost
+Something joyful to turn a rough day around,mood_boost
+Play uplifting songs to help me feel hopeful,mood_boost
+I want music to help shake off the blues,mood_boost
+What is the weather tomorrow?,out_of_scope
+How do I fix a null pointer exception in Python?,out_of_scope
+What time does the airport shuttle leave?,out_of_scope
+Can you help me plan a trip to Japan?,out_of_scope
+What's the capital of Australia?,out_of_scope
+How do I reset my email password?,out_of_scope
+What's a good recipe for chicken soup?,out_of_scope
+Can you explain how photosynthesis works?,out_of_scope
+What's the score of last night's basketball game?,out_of_scope
+How do I convert Celsius to Fahrenheit?,out_of_scope
+Tell me a joke about programmers.,out_of_scope
+What's the best way to learn a new language?,out_of_scope
+Can you summarize this news article for me?,out_of_scope
+How far is the moon from Earth?,out_of_scope
+What movies are playing this weekend?,out_of_scope
+Help me write an email to my landlord.,out_of_scope
+What's the traffic like downtown right now?,out_of_scope
+How do I install Python on my laptop?,out_of_scope
+Can you explain the stock market to me?,out_of_scope
+What's the difference between a crocodile and an alligator?,out_of_scope
+How long does it take to boil an egg?,out_of_scope
+Can you help me debug this JavaScript function?,out_of_scope
+What's a good gift for a coworker?,out_of_scope
+Turn off the living room lights.,out_of_scope
+Set a timer for ten minutes.,out_of_scope
+What's the population of Canada?,out_of_scope
+Can you translate this sentence into Spanish?,out_of_scope
+How do I change a flat tire?,out_of_scope
+What's the best route to the train station?,out_of_scope
+Explain how a car engine works.,out_of_scope
+Can you help me write a cover letter?,out_of_scope
+What's today's date?,out_of_scope
