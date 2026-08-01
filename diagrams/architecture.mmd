@@ -1,0 +1,31 @@
+flowchart TD
+    User[User natural-language request] --> CLI[CLI input and validation]
+    CLI --> Classifier[TF-IDF bigram features and<br/>Logistic Regression intent classifier]
+
+    TrainingData[(Intent training CSV<br/>164 examples)] --> Training[Classifier training]
+    Training --> Classifier
+
+    Classifier --> Guardrails[Confidence, top-two margin,<br/>length, and out-of-scope guardrails]
+    Guardrails --> Decision{Accepted?}
+
+    Decision -- No --> Message[User-facing guardrail message]
+    Message --> Stop[Recommendation engine is not called]
+
+    Decision -- Yes --> Mapper[Catalog-aware intent-to-profile mapper]
+    Songs[(20-song CSV catalog)] --> Mapper
+    Mapper --> Profile[Structured user preferences]
+    Profile --> Recommender[Existing deterministic<br/>recommendation engine]
+    Songs --> Recommender
+    Recommender --> Scoring[Weighted song scoring]
+    Scoring --> Ranking[Sorted recommendations]
+    Ranking --> Results[Scores and explanations]
+
+    EvalCases[(Held-out evaluation cases)] --> Harness[Evaluation harness]
+    Classifier --> Harness
+    Baseline[Keyword baseline<br/>comparison only] --> Harness
+    Harness --> Metrics[Accuracy and guardrail metrics]
+
+    Tests[Automated tests] --> Verification[Human review and verification]
+    Metrics --> Verification
+    Message --> Verification
+    Results --> Verification
