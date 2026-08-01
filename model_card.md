@@ -140,19 +140,19 @@ The surprising calibration finding was that default Logistic Regression regulari
 
 ### How AI was used
 
-AI assisted Francis with architecture planning, implementation suggestions, debugging, test planning, edge-case review, and documentation organization. Francis directed the scope, made product and reliability decisions, reviewed generated work, and verified the finished behavior. AI did not independently create or validate the entire project.
+AI assisted me with architecture planning, implementation suggestions, debugging, test planning, edge-case review, and documentation organization. I directed the scope, made product and reliability decisions, reviewed generated work, and verified the finished behavior. AI did not independently create or validate the entire project.
 
 ### Helpful AI suggestion
 
-A particularly helpful suggestion was to separate natural-language intent classification from deterministic song scoring. That modular boundary made the AI feature substantial and integrated while preserving the original recommender’s explainable ranking logic. Francis verified the boundary through unit tests for each component, integration tests showing that accepted requests reach scoring and rejected requests do not, and end-to-end CLI runs that display the predicted intent, structured profile, ranked songs, scores, and explanations.
+A particularly helpful suggestion was to separate natural-language intent classification from deterministic song scoring. That modular boundary made the AI feature substantial and integrated while preserving the original recommender’s explainable ranking logic. I verified the boundary through unit tests for each component, integration tests showing that accepted requests reach scoring and rejected requests do not, and end-to-end CLI runs that display the predicted intent, structured profile, ranked songs, scores, and explanations.
 
 ### Flawed or incorrect AI suggestion
 
-An earlier AI suggestion proposed excluding missing song features from the score denominator. Francis recognized that this could make a song with unknown metadata appear artificially strong when the listener explicitly required a feature such as high energy: less evidence would be scored as though it were equally complete evidence. Missing-feature scoring was outside this deadline-focused submission because the committed catalog is complete, but Francis rejected that shortcut and retained the concern for longer-term design rather than presenting it as solved here.
+An earlier AI suggestion proposed excluding missing song features from the score denominator. I recognized that this could make a song with unknown metadata appear artificially strong when the listener explicitly required a feature such as high energy: less evidence would be scored as though it were equally complete evidence. Missing-feature scoring was outside this deadline-focused submission because the committed catalog is complete, but I rejected that shortcut and retained the concern for longer-term design rather than presenting it as solved here.
 
-### What Francis accepted, rejected, and verified
+### What I accepted, rejected, and verified
 
-Francis accepted the modular classifier-to-profile-to-recommender architecture, explicit confidence/out-of-scope guardrails, and a reproducible evaluation harness with a keyword baseline. He rejected unsupported deadline-expanding product features and the unsafe missing-feature scoring shortcut. He verified AI-assisted suggestions by running the complete suite of 107 passing tests, reviewing generated sample evidence, executing successful and rejected CLI cases, and regenerating the 47-case evaluation report instead of accepting unverified performance claims.
+I accepted the modular classifier-to-profile-to-recommender architecture, explicit confidence/out-of-scope guardrails, and a reproducible evaluation harness with a keyword baseline. I rejected unsupported deadline-expanding product features and the unsafe missing-feature scoring shortcut. I verified AI-assisted suggestions by running the complete suite of 107 passing tests, reviewing generated sample evidence, executing successful and rejected CLI cases, and regenerating the 47-case evaluation report instead of accepting unverified performance claims.
 
 ### System limitations and future improvements
 
