@@ -7,10 +7,8 @@ __pycache__/
 .venv/
 env/
 venv/
-
 # OS files
 .DS_Store
-
 # Pytest cache
 .pytest_cache/
 graphify-out/
